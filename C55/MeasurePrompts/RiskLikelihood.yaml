@@ -1,0 +1,8 @@
+code: "RiskLikelihood"
+descriptionId: "The likelihood of a risk."
+customFieldCode: "Risk Likelihood"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Risk Likelihood"
+promptTextId: "Risk Likelihood"

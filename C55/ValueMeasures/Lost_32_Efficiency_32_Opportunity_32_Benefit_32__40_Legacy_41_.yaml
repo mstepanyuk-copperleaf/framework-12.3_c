@@ -1,0 +1,13 @@
+code: "Lost Efficiency Opportunity Benefit (Legacy)"
+nameId: "Lost Efficiency Opportunity Benefit (Legacy)"
+descriptionId: ""
+color: "#D161B9"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "Ignore"

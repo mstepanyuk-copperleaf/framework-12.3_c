@@ -1,0 +1,8 @@
+code: "ExpectedDays"
+descriptionId: "The expected number of days of schedule risk consequence."
+customFieldCode: "Consequence Units Field"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Expected Days"
+promptTextId: "Expected Days"

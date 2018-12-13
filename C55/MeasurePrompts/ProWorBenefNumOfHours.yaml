@@ -1,0 +1,8 @@
+code: "ProWorBenefNumOfHours"
+descriptionId: "Hour many hours of increased productivity per employee per year"
+customFieldCode: "Hour many hours of increased productivity per employee per year"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Hour many hours of i"
+promptTextId: "Hour many hours of increased productivity per employee per year"

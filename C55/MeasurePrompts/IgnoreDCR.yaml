@@ -1,0 +1,9 @@
+code: "IgnoreDCR"
+descriptionId: "Indicate whether the automatically calculated direct cost risk should\
+  \ be ignored."
+customFieldCode: "Boolean Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Ignore DCR"
+promptTextId: "Ignore Direct Cost Risk"

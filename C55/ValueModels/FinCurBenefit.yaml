@@ -1,0 +1,30 @@
+code: "FinCurBenefit"
+nameId: "Financial Benefit (Currency)"
+descriptionId: "Financial Benefit used to measure savings (in currency units) such\
+  \ as reduction/avoidance of capital costs, increased efficiency, or revenue."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "FinCurBenefit"
+  nameId: "Financial Benefit (Currency)"
+  valueMeasureCode: "Financial Benefit (Currency)"
+  sequence: 1
+questionnaires:
+- code: "FinCurBenefit-Financial Benefit (Currency)-O"
+  nameId: "Financial Benefit (Currency)"
+  descriptionId: "Financial Benefit (Currency)"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "FinCurBenefAmount"
+    sequence: 11
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 12
+  - measurePromptCode: "RationaleComment"
+    sequence: 13
+  formulas:
+  - measureCode: "FinCurBenefit"
+    consequenceClassName: "ManualFinancialCurrencyBenefitFormula"

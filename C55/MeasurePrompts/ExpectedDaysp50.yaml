@@ -1,0 +1,16 @@
+code: "ExpectedDaysp50"
+descriptionId: "For each project risk, estimate the range of possible consequences\
+  \ (in terms of cost or schedule increases) associated with that particular risk.\
+  \  Use an 80% certainty band, meaning there is a 10% chance the consequence is lower\
+  \ than the range provided and a 10% chance the consequence is higher than the range\
+  \ provided.  For example, if you anticipate with 80% certainty that unexpected site\
+  \ conditions would result in schedule increases of between 10-70 days, the low (p10)\
+  \ end of the range would be 10 days, the high (p90) end of the range would be 70\
+  \ days, and the expected consequence (p50) would be, say, 50 days, or your best\
+  \ estimate."
+customFieldCode: "Consequence Units Field"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Expected (p50) – In"
+promptTextId: "Expected (p50) – In days"

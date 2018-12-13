@@ -1,0 +1,13 @@
+code: "Condition"
+nameId: "Condition"
+descriptionId: "Condition"
+color: "#FFCD69"
+consqUnitCode: "Condition Score"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ConditionScore"
+monthToYearAggregation: "Last"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

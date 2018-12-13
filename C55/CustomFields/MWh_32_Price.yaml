@@ -1,0 +1,7 @@
+code: "MWh Price"
+nameId: "MWh Price"
+descriptionId: "MWh Price"
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

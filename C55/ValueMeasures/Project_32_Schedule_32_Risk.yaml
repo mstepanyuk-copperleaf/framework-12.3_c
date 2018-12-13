@@ -1,0 +1,14 @@
+code: "Project Schedule Risk"
+nameId: "Project Schedule Risk"
+descriptionId: "Projection execution risks have been identified as part of the project\
+  \ scoping process and are expected to result in delays to the project schedule."
+color: "#770000"
+consqUnitCode: "Day"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

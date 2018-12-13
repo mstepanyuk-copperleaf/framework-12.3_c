@@ -1,0 +1,352 @@
+code: "GenARM"
+nameId: "Generation Asset Risk Model"
+descriptionId: "Automatically calculated risk model for generation assets."
+groupCode: "Financial"
+mustImpact: true
+investmentApplicability: "NotApplicable"
+assetTypes:
+- assetTypeCode: "Air Compressors"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Annunication systems"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Batteries"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Bearing Guide"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Bearing Thrust"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Breaker Station Service"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Breaker Unit"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Building and Grounds"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Control Plant"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Control SCADA"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Crane Bridge - Electrical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Crane Bridge - Mechanical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Crane Derrick - Electrical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Crane Derrick - Mechanical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Crane Gantry - Electrical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Crane Gantry - Mechanical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Crane Mobile"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "DC System Boards/Breakers"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "DC System Charger/Inverter"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Elevators"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Emergency Diesel"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Environmental Systems"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Exciter"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Fire Protection Unit"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Fire Protection/Detection Facility"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Gate (Spillway) - Structure"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Generator Cooling & Misc."
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Generator Core"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Generator Rotor"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Generator Winding"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Governor Electrical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Governor Mechanical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Hierarchy 3"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "HVAC"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Power Bus"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Protective Relay Systems"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Security and Communications"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Spillway - Electrical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Spillway - Mechanical"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Substation and MCC Combined"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Transformer Fire Protection"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Transformer Main Unit"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Transformer Protective Relay Systems"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Transformer Station Service"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Turbine Adjustable"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Turbine Embedded Parts"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Turbine Fixed"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Unit Control Boards"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+- assetTypeCode: "Water Control & Emergency Closure"
+  applicability: "Mandatory"
+  hasCommonBaseline: true
+measures:
+- code: "AvoidedCarbonEmBenefit_AA"
+  nameId: "Avoided Carbon Emissions Benefit"
+  valueMeasureCode: "Avoided Carbon Emissions Benefit"
+  sequence: 22
+- code: "Condition"
+  nameId: "Condition"
+  valueMeasureCode: "Condition"
+  sequence: 21
+- code: "DirCostRisk_Legacy"
+  nameId: "Direct Cost Risk (Legacy)"
+  valueMeasureCode: "Direct Cost Risk (Legacy)"
+  sequence: 30
+- code: "DirectCostRisk"
+  nameId: "Direct Cost Risk"
+  valueMeasureCode: "Direct Cost Risk"
+  sequence: 29
+- code: "DirectCostRisk_PDF"
+  nameId: "Direct Cost Risk (PDF)"
+  valueMeasureCode: "Direct Cost Risk (PDF)"
+  sequence: 31
+- code: "EnvRisk_Automated"
+  nameId: "Environmental Risk (Automated)"
+  valueMeasureCode: "Environmental Risk (Automated)"
+  sequence: 35
+- code: "LostEffOpportunity"
+  nameId: "Lost Efficiency Opportunity"
+  valueMeasureCode: "Lost Efficiency Opportunity"
+  sequence: 23
+- code: "LostEffOpportunity_Legacy"
+  nameId: "Lost Efficiency Opportunity (Legacy)"
+  valueMeasureCode: "Lost Efficiency Opportunity (Legacy)"
+  sequence: 24
+- code: "LostEffOpportunityBenefit"
+  nameId: "Lost Efficiency Opportunity Benefit"
+  valueMeasureCode: "Lost Efficiency Opportunity Benefit"
+  sequence: 40
+- code: "LostGenRisk"
+  nameId: "Lost Generation Risk"
+  valueMeasureCode: "Lost Generation Risk"
+  sequence: 32
+- code: "LostGenRisk_Legacy"
+  nameId: "Lost Generation Risk (Legacy)"
+  valueMeasureCode: "Lost Generation Risk (Legacy)"
+  sequence: 33
+- code: "LostGenRisk_PDF"
+  nameId: "Lost Generation Risk (PDF)"
+  valueMeasureCode: "Lost Generation Risk (PDF)"
+  sequence: 34
+- code: "NormalizedAge"
+  nameId: "Normalized Age"
+  valueMeasureCode: "Normalized Age"
+  sequence: 37
+- code: "ProactiveReplCost_PDF"
+  nameId: "Proactive Replacement Cost (PDF)"
+  valueMeasureCode: "Proactive Replacement Cost (PDF)"
+  sequence: 25
+- code: "ReactiveReplCost_PDF"
+  nameId: "Reactive Replacement Cost (PDF)"
+  valueMeasureCode: "Reactive Replacement Cost (PDF)"
+  sequence: 26
+- code: "ReplCostNormal"
+  nameId: "Replacement Cost Normal"
+  valueMeasureCode: "Replacement Cost Normal"
+  sequence: 27
+- code: "SafRisk_Automated"
+  nameId: "Safety Risk (Automated)"
+  valueMeasureCode: "Safety Risk (Automated)"
+  sequence: 36
+- code: "TurbineAgeDegradation"
+  nameId: "Turbine Age Degradation"
+  valueMeasureCode: "Turbine Age Degradation"
+  sequence: 38
+- code: "TurbineTechImprovement"
+  nameId: "Turbine Technology Improvement"
+  valueMeasureCode: "Turbine Technology Improvement"
+  sequence: 39
+- code: "WeightedAnnualValue"
+  nameId: "Weighted Annual Value"
+  valueMeasureCode: "Weighted Annual Value"
+  sequence: 28
+questionnaires:
+- code: "GenARM-Baseline Condition Questionnaire-B"
+  nameId: "Baseline Condition Questionnaire"
+  descriptionId: "Baseline Condition Questionnaire"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "BaseCondition"
+    sequence: 11
+  formulas:
+  - measureCode: "Condition"
+    consequenceClassName: "GenARMCondition"
+  - measureCode: "DirCostRisk_Legacy"
+    consequenceClassName: "GenARMConsequenceDirectCost"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "DirectCostRisk"
+    consequenceClassName: "GenARMConsequenceDirectCost"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "DirectCostRisk_PDF"
+    consequenceClassName: "GenARMReactiveReplacementCost"
+    likelihoodClassName: "GenARMProbability"
+  - measureCode: "EnvRisk_Automated"
+    consequenceClassName: "GenARMConsequenceSafetyEnvironmental"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "LostEffOpportunity"
+    consequenceClassName: "GenARMLostEfficiencyOpportunityBaseline"
+  - measureCode: "LostEffOpportunity_Legacy"
+    consequenceClassName: "GenARMLostEfficiencyOpportunityLegacyBaseline"
+  - measureCode: "LostEffOpportunityBenefit"
+    consequenceClassName: "GenARMLostEfficiencyOpportunity"
+  - measureCode: "LostGenRisk"
+    consequenceClassName: "GenARMConsequenceGeneration_ExclCarbonPricing"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "LostGenRisk_Legacy"
+    consequenceClassName: "GenARMConsequenceGeneration"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "LostGenRisk_PDF"
+    consequenceClassName: "GenARMConsequenceGeneration"
+    likelihoodClassName: "GenARMProbability"
+  - measureCode: "NormalizedAge"
+    consequenceClassName: "NormalizedAgeBaseline"
+  - measureCode: "SafRisk_Automated"
+    consequenceClassName: "GenARMConsequenceSafetyEnvironmental"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "TurbineAgeDegradation"
+    consequenceClassName: "GenARMTurbineAgeDegradationBaseline"
+  - measureCode: "TurbineTechImprovement"
+    consequenceClassName: "GenARMTurbineTechnologyImprovementBaseline"
+- code: "GenARM-Replacement Questionnaire-O"
+  nameId: "Replacement Questionnaire"
+  descriptionId: "Replacement Questionnaire"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "ImpactCondition"
+    sequence: 1
+  - measurePromptCode: "IgnoreLGR"
+    sequence: 2
+  - measurePromptCode: "IgnoreLGRComment"
+    sequence: 3
+  - measurePromptCode: "IgnoreDCR"
+    sequence: 4
+  - measurePromptCode: "IgnoreDCRComment"
+    sequence: 5
+  formulas:
+  - measureCode: "AvoidedCarbonEmBenefit_AA"
+    consequenceClassName: "GenARMAvoidedCarbonEmissions"
+  - measureCode: "Condition"
+    consequenceClassName: "GenARMConditionOutcome"
+  - measureCode: "DirCostRisk_Legacy"
+    consequenceClassName: "GenARMConsequenceDirectCost"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "DirectCostRisk"
+    consequenceClassName: "GenARMConsequenceDirectCost"
+    likelihoodClassName: "GenARMConditionalProbability_IgnoreDCR"
+  - measureCode: "DirectCostRisk_PDF"
+    consequenceClassName: "GenARMReactiveReplacementCost"
+    likelihoodClassName: "GenARMProbabilityOutcome"
+  - measureCode: "EnvRisk_Automated"
+    consequenceClassName: "GenARMConsequenceSafetyEnvironmental"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "LostEffOpportunity"
+    consequenceClassName: "GenARMLostEfficiencyOpportunityOutcome"
+  - measureCode: "LostEffOpportunity_Legacy"
+    consequenceClassName: "GenARMLostEfficiencyOpportunityLegacyOutcome"
+  - measureCode: "LostEffOpportunityBenefit"
+    consequenceClassName: "GenARMLostEfficiencyOpportunity"
+  - measureCode: "LostGenRisk"
+    consequenceClassName: "GenARMConsequenceGeneration_ExclCarbonPricing"
+    likelihoodClassName: "GenARMConditionalProbability_IgnoreLGR"
+  - measureCode: "LostGenRisk_Legacy"
+    consequenceClassName: "GenARMConsequenceGeneration"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "LostGenRisk_PDF"
+    consequenceClassName: "GenARMConsequenceGeneration"
+    likelihoodClassName: "GenARMProbabilityOutcome"
+  - measureCode: "NormalizedAge"
+    consequenceClassName: "NormalizedAgeOutcome"
+  - measureCode: "ProactiveReplCost_PDF"
+    consequenceClassName: "GenARMReplacementCost"
+    likelihoodClassName: "GenARMProactiveReplacementProbabilityOutcome"
+  - measureCode: "ReactiveReplCost_PDF"
+    consequenceClassName: "GenARMReactiveReplacementCost"
+    likelihoodClassName: "GenARMReactiveReplacementProbabilityOutcome"
+  - measureCode: "ReplCostNormal"
+    consequenceClassName: "GenARMReplacementCostLegacy"
+  - measureCode: "SafRisk_Automated"
+    consequenceClassName: "GenARMConsequenceSafetyEnvironmental"
+    likelihoodClassName: "GenARMConditionalProbability"
+  - measureCode: "TurbineAgeDegradation"
+    consequenceClassName: "GenARMTurbineAgeDegradationOutcome"
+  - measureCode: "TurbineTechImprovement"
+    consequenceClassName: "GenARMTurbineTechnologyImprovementOutcome"
+  - measureCode: "WeightedAnnualValue"
+    consequenceClassName: "WeightedAnnualValue"

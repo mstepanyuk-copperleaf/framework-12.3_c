@@ -1,0 +1,8 @@
+code: "Short Comment"
+nameId: "Short Comment"
+descriptionId: "Comment"
+type: "Text"
+isMultiline: false
+isCloneable: true
+maximumLength: 1000
+listItems: []

@@ -1,0 +1,8 @@
+code: "BaseCondition"
+descriptionId: "Base Condition (score)"
+customFieldCode: "Base Condition"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Base Condition (scor"
+promptTextId: "Base Condition (score)"

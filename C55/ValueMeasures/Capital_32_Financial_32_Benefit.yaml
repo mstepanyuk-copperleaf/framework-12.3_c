@@ -1,0 +1,13 @@
+code: "Capital Financial Benefit"
+nameId: "Capital Financial Benefit"
+descriptionId: "Capital Financial Benefit"
+color: "#228B22"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

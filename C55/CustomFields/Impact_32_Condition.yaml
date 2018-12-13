@@ -1,0 +1,9 @@
+code: "Impact Condition"
+nameId: "Impact Condition"
+descriptionId: "Impact Condition (score)"
+type: "Number"
+isCloneable: true
+numberDecimals: 3
+isCurrencyValue: false
+maximumNumber: 10
+listItems: []

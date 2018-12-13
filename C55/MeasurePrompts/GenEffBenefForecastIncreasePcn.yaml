@@ -1,0 +1,8 @@
+code: "GenEffBenefForecastIncreasePcn"
+descriptionId: "What is the forecast % increase in output?"
+customFieldCode: "What is the forecast % increase in output?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the forecast"
+promptTextId: "What is the forecast % increase in output?"

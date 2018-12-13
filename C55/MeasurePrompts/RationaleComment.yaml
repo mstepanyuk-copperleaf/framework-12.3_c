@@ -1,0 +1,8 @@
+code: "RationaleComment"
+descriptionId: "Provide background information justifying selection of answers."
+customFieldCode: "Long Comment"
+isTimeVarying: false
+isRequired: false
+isComment: true
+shortPromptId: "Rationale/comment"
+promptTextId: "Rationale/comment"

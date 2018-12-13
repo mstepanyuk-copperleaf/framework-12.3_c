@@ -1,0 +1,13 @@
+code: "Environmental Risk (Manual)"
+nameId: "Environmental Risk (Manual)"
+descriptionId: "Environmental Risk (Manual)"
+color: "#800000"
+consqUnitCode: "Value Unit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,24 @@
+code: "Resource"
+nameId: "Resource"
+descriptionId: "Financial Benefit (Resource) Question"
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+isCurrencyValue: false
+listItems:
+- code: "aMW"
+  nameId: "aMW"
+  value: 1
+  isObsolete: false
+- code: "CO2(aMW)"
+  nameId: "CO2(aMW)"
+  value: 3
+  isObsolete: false
+- code: "CO2(MWh)"
+  nameId: "CO2(MWh)"
+  value: 4
+  isObsolete: false
+- code: "MWh"
+  nameId: "MWh"
+  value: 2
+  isObsolete: false

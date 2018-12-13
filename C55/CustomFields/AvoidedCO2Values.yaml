@@ -1,0 +1,7 @@
+code: "AvoidedCO2Values"
+nameId: "Avoided CO2 Value ($/MWh)"
+descriptionId: ""
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

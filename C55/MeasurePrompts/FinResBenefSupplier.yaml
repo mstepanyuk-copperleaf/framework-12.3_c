@@ -1,0 +1,8 @@
+code: "FinResBenefSupplier"
+descriptionId: "Supplier"
+customFieldCode: "Supplier"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Supplier"
+promptTextId: "Supplier"

@@ -1,0 +1,7 @@
+code: "Labour Hour Rate"
+nameId: "Labour Hour Rate"
+descriptionId: "Labour Hour Rate"
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

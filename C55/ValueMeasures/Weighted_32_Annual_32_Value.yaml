@@ -1,0 +1,13 @@
+code: "Weighted Annual Value"
+nameId: "Weighted Annual Value"
+descriptionId: "Weighted Annual Value"
+color: "#BD244F"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Maximum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

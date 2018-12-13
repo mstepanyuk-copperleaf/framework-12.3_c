@@ -1,0 +1,8 @@
+code: "Long Comment"
+nameId: "Long Comment"
+descriptionId: "Rationale/comment"
+type: "BigText"
+isMultiline: true
+isCloneable: true
+maximumLength: 10000
+listItems: []

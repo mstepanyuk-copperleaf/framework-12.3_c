@@ -1,0 +1,9 @@
+code: "What is the amount of the financial benefit (in units per year)?"
+nameId: "What is the amount of the financial benefit (in units per year)?"
+descriptionId: "Financial Benefit (Resource) Question"
+type: "Number"
+isCloneable: true
+numberDecimals: 5
+isCurrencyValue: false
+maximumNumber: 1000000000
+listItems: []

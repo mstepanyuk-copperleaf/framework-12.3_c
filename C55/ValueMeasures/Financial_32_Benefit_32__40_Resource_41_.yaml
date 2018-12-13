@@ -1,0 +1,13 @@
+code: "Financial Benefit (Resource)"
+nameId: "Financial Benefit (Resource)"
+descriptionId: "Financial Benefit (Resource)"
+color: "#FF7619"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

@@ -1,0 +1,9 @@
+code: "ImpactCondition"
+descriptionId: "Impact Condition (score)"
+customFieldCode: "Impact Condition"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Impact Condition (sc"
+promptTextId: "Impact Condition (score)"
+defaultValue: "10"

@@ -1,0 +1,28 @@
+code: "Supplier"
+nameId: "Supplier"
+descriptionId: "Financial Benefit (Resource) Question"
+type: "DropDownList"
+isCloneable: true
+listType: "Custom"
+isCurrencyValue: false
+listItems:
+- code: "CO2 aMW Variable"
+  nameId: "CO2 aMW Variable"
+  value: 4
+  isObsolete: false
+- code: "CO2 mWH Variable"
+  nameId: "CO2 mWH Variable"
+  value: 5
+  isObsolete: false
+- code: "Expected_Flat"
+  nameId: "Expected_Flat"
+  value: 3
+  isObsolete: false
+- code: "High_Flat"
+  nameId: "High_Flat"
+  value: 1
+  isObsolete: false
+- code: "Low_Flat"
+  nameId: "Low_Flat"
+  value: 2
+  isObsolete: false

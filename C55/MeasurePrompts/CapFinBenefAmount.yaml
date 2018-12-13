@@ -1,0 +1,8 @@
+code: "CapFinBenefAmount"
+descriptionId: "What is the amount of the capital financial benefit ($ per year)?"
+customFieldCode: "What is the amount of the capital financial benefit ($ per year)?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual Amount ($)"
+promptTextId: "What is the amount of the capital financial benefit ($ per year)?"

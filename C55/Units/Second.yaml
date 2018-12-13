@@ -1,0 +1,16 @@
+code: "Second"
+nameId: "Second"
+descriptionId: "Time in seconds"
+unitType: "Time"
+literal:
+  editFormat: "0.##"
+  displayFormat: "#,##0.00;(#,##0.00);0.00"
+  symbol: "s"
+thousands:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""
+millions:
+  editFormat: ""
+  displayFormat: ""
+  symbol: ""

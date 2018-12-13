@@ -1,0 +1,7 @@
+code: "Low_Flat"
+nameId: "Low_Flat"
+descriptionId: "Low_Flat"
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

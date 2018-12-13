@@ -1,0 +1,16 @@
+- code: "Financial"
+  nameId: "Financial"
+  descriptionId: "Maximize cost savings and increase efficiency"
+  sequence: 1
+- code: "Risks"
+  nameId: "Risks"
+  descriptionId: "Risks Mitigated by the Asset/Expenditure"
+  sequence: 2
+- code: "Benefits"
+  nameId: "Benefits"
+  descriptionId: "Benefits Mitigated by the Asset/Expenditure"
+  sequence: 3
+- code: "Costs"
+  nameId: "Costs"
+  descriptionId: "Costs"
+  sequence: 4

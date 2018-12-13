@@ -1,0 +1,13 @@
+code: "Safety Risk (Manual)"
+nameId: "Safety Risk (Manual)"
+descriptionId: "Safety Risk (Manual)"
+color: "#8B4513"
+consqUnitCode: "Value Unit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

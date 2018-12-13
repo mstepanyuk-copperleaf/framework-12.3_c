@@ -1,0 +1,9 @@
+code: "What is the forecast % increase in output?"
+nameId: "What is the forecast % increase in output?"
+descriptionId: "Generation Efficiency Benefit Question"
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+isCurrencyValue: false
+maximumNumber: 100
+listItems: []

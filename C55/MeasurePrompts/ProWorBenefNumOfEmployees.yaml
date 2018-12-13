@@ -1,0 +1,8 @@
+code: "ProWorBenefNumOfEmployees"
+descriptionId: "How many employees are positively impacted by the expenditure?"
+customFieldCode: "How many employees are positively impacted by the expenditure?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "How many employees a"
+promptTextId: "How many employees are positively impacted by the expenditure?"

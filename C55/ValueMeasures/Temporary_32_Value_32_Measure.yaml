@@ -1,0 +1,13 @@
+code: "Temporary Value Measure"
+nameId: "Temporary Value Measure"
+descriptionId: "Temporary Value Measure due to database migration"
+color: "#000000"
+consqUnitCode: "Second"
+isObsolete: true
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialCost"

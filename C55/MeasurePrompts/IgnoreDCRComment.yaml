@@ -1,0 +1,8 @@
+code: "IgnoreDCRComment"
+descriptionId: "Provide background information justifying selection of answers."
+customFieldCode: "Long Comment"
+isTimeVarying: false
+isRequired: false
+isComment: true
+shortPromptId: "Ignore DCR Comment"
+promptTextId: "Ignore Direct Cost Risk Comment"

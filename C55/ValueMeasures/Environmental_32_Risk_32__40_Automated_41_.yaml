@@ -1,0 +1,13 @@
+code: "Environmental Risk (Automated)"
+nameId: "Environmental Risk (Automated)"
+descriptionId: "Environmental Risk (Automated)"
+color: "#38A23D"
+consqUnitCode: "Value Unit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

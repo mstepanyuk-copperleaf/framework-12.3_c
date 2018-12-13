@@ -1,0 +1,7 @@
+code: "High_Flat"
+nameId: "High_Flat"
+descriptionId: "High_Flat"
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

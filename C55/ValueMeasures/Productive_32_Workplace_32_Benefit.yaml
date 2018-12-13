@@ -1,0 +1,13 @@
+code: "Productive Workplace Benefit"
+nameId: "Productive Workplace Benefit"
+descriptionId: "Productive Workplace Benefit"
+color: "#CD6600"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

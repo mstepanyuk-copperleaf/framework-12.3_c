@@ -1,0 +1,8 @@
+code: "OMFinBenefLaborHr"
+descriptionId: "What is the reduction in labor hours?"
+customFieldCode: "What is the reduction in labor hours?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the reductio"
+promptTextId: "What is the reduction in labor hours?"

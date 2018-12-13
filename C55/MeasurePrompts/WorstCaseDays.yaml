@@ -1,0 +1,8 @@
+code: "WorstCaseDays"
+descriptionId: "The worst case number of days of schedule risk consequence."
+customFieldCode: "Consequence Units Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Worst Case Days"
+promptTextId: "Worst Case Days"

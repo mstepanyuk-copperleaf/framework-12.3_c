@@ -1,0 +1,13 @@
+code: "Total Direct Cost (Cap + Exp)"
+nameId: "Total Direct Cost (Cap + Exp)"
+descriptionId: "Total Direct Cost (Cap + Exp)"
+color: "#CD5C5C"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "FinancialCost"

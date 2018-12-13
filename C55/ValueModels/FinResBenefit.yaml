@@ -1,0 +1,34 @@
+code: "FinResBenefit"
+nameId: "Financial Benefit (Resource)"
+descriptionId: "Financial Benefit used to measure savings (in resource units) such\
+  \ as reduction/avoidance of capital costs, increased efficiency, or revenue."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "FinResBenefit"
+  nameId: "Financial Benefit (Resource)"
+  valueMeasureCode: "Financial Benefit (Resource)"
+  sequence: 1
+questionnaires:
+- code: "FinResBenefit-Financial Benefit (Resource)-O"
+  nameId: "Financial Benefit (Resource)"
+  descriptionId: "Financial Benefit (Resource)"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "FinResBenefAmount"
+    sequence: 11
+  - measurePromptCode: "FinResBenefSupplier"
+    sequence: 12
+  - measurePromptCode: "FinResBenefResource"
+    sequence: 13
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 14
+  - measurePromptCode: "RationaleComment"
+    sequence: 15
+  formulas:
+  - measureCode: "FinResBenefit"
+    consequenceClassName: "ManualFinancialResourceBenefitFormula"

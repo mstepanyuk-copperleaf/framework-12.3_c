@@ -1,0 +1,8 @@
+code: "UncertaintyRangeComment"
+descriptionId: "Enter the present value of the uncertainty range."
+customFieldCode: "Short Comment"
+isTimeVarying: false
+isRequired: false
+isComment: true
+shortPromptId: "Uncertainty Range Co"
+promptTextId: "Uncertainty Range Comment"

@@ -1,0 +1,8 @@
+code: "OMFinBenefMaterialCost"
+descriptionId: "What is the reduction in materials cost?"
+customFieldCode: "What is the reduction in materials cost?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the reductio"
+promptTextId: "What is the reduction in materials cost?"

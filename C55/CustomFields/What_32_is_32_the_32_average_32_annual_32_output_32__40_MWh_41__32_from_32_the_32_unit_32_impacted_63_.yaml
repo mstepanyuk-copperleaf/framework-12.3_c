@@ -1,0 +1,9 @@
+code: "What is the average annual output (MWh) from the unit impacted?"
+nameId: "What is the average annual output (MWh) from the unit impacted?"
+descriptionId: "Generation Efficiency Benefit Question"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 1000000000
+listItems: []

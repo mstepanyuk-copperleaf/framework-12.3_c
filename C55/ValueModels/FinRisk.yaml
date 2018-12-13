@@ -1,0 +1,216 @@
+code: "FinRisk"
+nameId: "Financial Risk"
+descriptionId: "Financial risk is used to represent a failure mode or an event that\
+  \ will have a direct financial consequence for the organization. For example, if\
+  \ the failure of a piece of auxiliary equipment causes the destruction of a turbine\
+  \ unit, there would bea financial risk.\nassociated with that failure whose consequence\
+  \ is valued at the cost of repair or replacement of the turbine. The investmentwill\n\
+  reduce either the probability of the event, the consequence of the event, or both."
+groupCode: "Risks"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes:
+- assetTypeCode: "Air Compressors"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Annunication systems"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Batteries"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Bearing Guide"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Bearing Thrust"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Breaker Station Service"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Breaker Unit"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Building and Grounds"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Control Plant"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Control SCADA"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Crane Bridge - Electrical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Crane Bridge - Mechanical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Crane Derrick - Electrical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Crane Derrick - Mechanical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Crane Gantry - Electrical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Crane Gantry - Mechanical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Crane Mobile"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "DC System Boards/Breakers"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "DC System Charger/Inverter"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Elevators"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Emergency Diesel"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Environmental Systems"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Exciter"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Fire Protection Unit"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Fire Protection/Detection Facility"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Gate (Spillway) - Structure"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Generator Cooling & Misc."
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Generator Core"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Generator Rotor"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Generator Winding"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Governor Electrical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Governor Mechanical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Hierarchy 1"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Hierarchy 2"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Hierarchy 3"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Hierarchy 4"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Hierarchy 5"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Hierarchy Root"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "HVAC"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Power Bus"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Protective Relay Systems"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Security and Communications"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Spillway - Electrical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Spillway - Mechanical"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Substation and MCC Combined"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Transformer Fire Protection"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Transformer Main Unit"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Transformer Protective Relay Systems"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Transformer Station Service"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Turbine Adjustable"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Turbine Embedded Parts"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Turbine Fixed"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Unit Control Boards"
+  applicability: "Optional"
+  hasCommonBaseline: false
+- assetTypeCode: "Water Control & Emergency Closure"
+  applicability: "Optional"
+  hasCommonBaseline: false
+measures:
+- code: "FinRisk"
+  nameId: "Financial Risk"
+  valueMeasureCode: "Financial Risk"
+  sequence: 1
+questionnaires:
+- code: "FinRisk-Financial Risk-B"
+  nameId: "Financial Risk"
+  descriptionId: "Financial Risk"
+  isBaseline: true
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "RiskConsequence"
+    sequence: 11
+  - measurePromptCode: "RiskLikelihood"
+    sequence: 12
+  - measurePromptCode: "RationaleComment"
+    sequence: 13
+  formulas:
+  - measureCode: "FinRisk"
+    consequenceClassName: "ManualRiskConsequenceFormula"
+    likelihoodClassName: "ManualRiskProbabilityFormula"
+- code: "FinRisk-Financial Risk Override Outcome-O"
+  nameId: "Financial Risk Override Outcome"
+  descriptionId: "Financial Risk Override Outcome"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "RiskConsequence"
+    sequence: 11
+  - measurePromptCode: "RiskLikelihood"
+    sequence: 12
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 13
+  - measurePromptCode: "RationaleComment"
+    sequence: 14
+  formulas:
+  - measureCode: "FinRisk"
+    consequenceClassName: "ManualRiskConsequenceFormula"
+    likelihoodClassName: "ManualRiskProbabilityFormula"

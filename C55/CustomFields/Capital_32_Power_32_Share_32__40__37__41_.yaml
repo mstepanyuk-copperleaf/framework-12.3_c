@@ -1,0 +1,8 @@
+code: "Capital Power Share (%)"
+nameId: "Capital Power Share (%)"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100
+listItems: []

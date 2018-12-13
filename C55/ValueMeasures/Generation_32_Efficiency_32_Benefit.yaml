@@ -1,0 +1,13 @@
+code: "Generation Efficiency Benefit"
+nameId: "Generation Efficiency Benefit"
+descriptionId: "Generation Efficiency Benefit"
+color: "#CD6620"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

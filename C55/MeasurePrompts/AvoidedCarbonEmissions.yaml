@@ -1,0 +1,8 @@
+code: "AvoidedCarbonEmissions"
+descriptionId: "The annual avoided carbon Emissions ($ per year)."
+customFieldCode: "Consequence Units Currency Field"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual Avoided Carbo"
+promptTextId: "Annual Avoided Carbon Emissions ($)"

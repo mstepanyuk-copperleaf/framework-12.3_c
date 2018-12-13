@@ -1,0 +1,6 @@
+code: "Boolean Field"
+nameId: "Boolean Field"
+descriptionId: "A generic question with a boolean answer."
+type: "CheckBox"
+isCloneable: true
+listItems: []

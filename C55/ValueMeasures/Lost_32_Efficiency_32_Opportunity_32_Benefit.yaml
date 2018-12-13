@@ -1,0 +1,13 @@
+code: "Lost Efficiency Opportunity Benefit"
+nameId: "Lost Efficiency Opportunity Benefit"
+descriptionId: ""
+color: "#7366D0"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

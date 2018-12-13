@@ -1,0 +1,8 @@
+code: "OMFinBenefOtherDirectCost"
+descriptionId: "What is the reduction in other direct costs (eg contractors)?"
+customFieldCode: "What is the reduction in other direct costs (eg contractors)?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the reductio"
+promptTextId: "What is the reduction in other direct costs (eg contractors)?"

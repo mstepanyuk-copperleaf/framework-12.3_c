@@ -1,0 +1,14 @@
+code: "Avoided Carbon Emissions Benefit"
+nameId: "Avoided Carbon Emissions Benefit"
+descriptionId: "Derived from annual Asset Management Common Agency Assumptions for\
+  \ carbon costs multiplied by the expected annual loss in generation."
+color: "#38A23D"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

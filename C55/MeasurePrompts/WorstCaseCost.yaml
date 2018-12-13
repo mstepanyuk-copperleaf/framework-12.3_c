@@ -1,0 +1,8 @@
+code: "WorstCaseCost"
+descriptionId: "The worst case project cost risk consequence."
+customFieldCode: "Consequence Units Currency Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Worst Case Cost ($)"
+promptTextId: "Worst Case Cost ($)"

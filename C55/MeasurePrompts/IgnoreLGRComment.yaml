@@ -1,0 +1,8 @@
+code: "IgnoreLGRComment"
+descriptionId: "Provide background information justifying selection of answers."
+customFieldCode: "Long Comment"
+isTimeVarying: false
+isRequired: false
+isComment: true
+shortPromptId: "Ignore LGR Comment"
+promptTextId: "Ignore Lost Generation Risk Comment"

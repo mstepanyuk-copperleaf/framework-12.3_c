@@ -1,0 +1,9 @@
+code: "What is the reduction in other direct costs (eg contractors)?"
+nameId: "What is the reduction in other direct costs (eg contractors)?"
+descriptionId: "O&M Financial Benefit Question"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: true
+maximumNumber: 1000000000
+listItems: []

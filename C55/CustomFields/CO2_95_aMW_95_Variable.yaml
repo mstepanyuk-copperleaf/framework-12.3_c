@@ -1,0 +1,7 @@
+code: "CO2_aMW_Variable"
+nameId: "CO2_aMW_Variable"
+descriptionId: "CO2_aMW_Variable"
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

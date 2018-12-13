@@ -1,0 +1,14 @@
+code: "O&M"
+nameId: "O&M"
+descriptionId: "O&M"
+accountTypeName: "Expense"
+color: "#CD5C5C"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: true
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "Ignore"

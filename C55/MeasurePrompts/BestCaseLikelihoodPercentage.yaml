@@ -1,0 +1,8 @@
+code: "BestCaseLikelihoodPercentage"
+descriptionId: "The best case likelihood (%)"
+customFieldCode: "Percentage Likelihood Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Best Case Likelihood"
+promptTextId: "Best Case Likelihood (%)"

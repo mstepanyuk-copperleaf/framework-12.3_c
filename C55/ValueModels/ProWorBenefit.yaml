@@ -1,0 +1,36 @@
+code: "ProWorBenefit"
+nameId: "Productive Workplace Benefit"
+descriptionId: "Productive Workplace Benefit is aimed at measuring the effects of\
+  \ working conditions on employee productivity. While this benefit is subjective,\
+  \ poor working conditions do affect employee productivity and the ability of the\
+  \ organization to attract and retain employees.This could be used to value expenditures\
+  \ for admin building improvements, HVAC, parking lots, expanding office environment,\
+  \ etc."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "ProWorBenefit"
+  nameId: "Productive Workplace Benefit"
+  valueMeasureCode: "Productive Workplace Benefit"
+  sequence: 1
+questionnaires:
+- code: "ProWorBenefit-Productive Workplace Benefit-O"
+  nameId: "Productive Workplace Benefit"
+  descriptionId: "Productive Workplace Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "ProWorBenefNumOfEmployees"
+    sequence: 11
+  - measurePromptCode: "ProWorBenefNumOfHours"
+    sequence: 12
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 13
+  - measurePromptCode: "RationaleComment"
+    sequence: 14
+  formulas:
+  - measureCode: "ProWorBenefit"
+    consequenceClassName: "ManualProductiveWorplaceBenefitFormula"

@@ -1,0 +1,32 @@
+code: "GenEffBenefit"
+nameId: "Generation Efficiency Benefit"
+descriptionId: "Generation efficiency benefit is used to represent impact of increased\
+  \ generation in MWh due to improved equipment efficiency."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "GenEffBenefit"
+  nameId: "Generation Efficiency Benefit"
+  valueMeasureCode: "Generation Efficiency Benefit"
+  sequence: 1
+questionnaires:
+- code: "GenEffBenefit-Generation Efficiency Benefit-O"
+  nameId: "Generation Efficiency Benefit"
+  descriptionId: "Generation Efficiency Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "GenEffBenefAvgAnnualOutput"
+    sequence: 11
+  - measurePromptCode: "GenEffBenefForecastIncreasePcn"
+    sequence: 12
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 13
+  - measurePromptCode: "RationaleComment"
+    sequence: 14
+  formulas:
+  - measureCode: "GenEffBenefit"
+    consequenceClassName: "ManualGenerationEfficiencyBenefitFormula"

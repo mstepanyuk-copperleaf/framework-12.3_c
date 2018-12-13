@@ -1,0 +1,30 @@
+code: "AvoidedCarbonEmBenefit"
+nameId: "Avoided Carbon Emissions"
+descriptionId: "Derived from annual Asset Management Common Agency Assumptions for\
+  \ carbon costs multiplied by the expected annual loss in generation."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "AvoidedCarbonEmBenefit"
+  nameId: "Avoided Carbon Emissions Benefit"
+  valueMeasureCode: "Avoided Carbon Emissions Benefit"
+  sequence: 1
+questionnaires:
+- code: "AvoidedCarbonEmBenefit-Avoided Carbon Emissions-O"
+  nameId: "Avoided Carbon Emissions"
+  descriptionId: "Avoided Carbon Emissions"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "AvoidedCarbonEmissions"
+    sequence: 11
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 12
+  - measurePromptCode: "RationaleComment"
+    sequence: 13
+  formulas:
+  - measureCode: "AvoidedCarbonEmBenefit"
+    consequenceClassName: "AvoidedCarbonEmissionsFormula"

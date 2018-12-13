@@ -1,0 +1,9 @@
+code: "Burden Factor"
+nameId: "Burden Factor"
+descriptionId: "Long-term planning parameter."
+type: "Number"
+isCloneable: false
+numberDecimals: 9
+isCurrencyValue: false
+maximumNumber: 100000000
+listItems: []

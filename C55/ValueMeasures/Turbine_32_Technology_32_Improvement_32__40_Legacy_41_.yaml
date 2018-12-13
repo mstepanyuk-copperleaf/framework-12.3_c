@@ -1,0 +1,13 @@
+code: "Turbine Technology Improvement (Legacy)"
+nameId: "Turbine Technology Improvement (Legacy)"
+descriptionId: ""
+color: "#2C2CB2"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

@@ -1,0 +1,14 @@
+code: "Outage Cost"
+nameId: "Outage Cost"
+descriptionId: "When a unit is out of service for planned or unplanned work, it is\
+  \ unable to generate.  That foregone generation is a real indirect cost of the project."
+color: "#CD6620"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "NegativeWeighting"
+financialMetricsUsage: "FinancialCost"

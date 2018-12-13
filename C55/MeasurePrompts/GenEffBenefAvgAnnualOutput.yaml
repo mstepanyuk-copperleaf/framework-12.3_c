@@ -1,0 +1,8 @@
+code: "GenEffBenefAvgAnnualOutput"
+descriptionId: "What is the average annual output (MWh) from the unit impacted?"
+customFieldCode: "What is the average annual output (MWh) from the unit impacted?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "What is the average"
+promptTextId: "What is the average annual output (MWh) from the unit impacted?"

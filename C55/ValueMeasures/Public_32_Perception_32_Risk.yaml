@@ -1,0 +1,13 @@
+code: "Public Perception Risk"
+nameId: "Public Perception Risk"
+descriptionId: "Public Perception Risk"
+color: "#00688B"
+consqUnitCode: "Value Unit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

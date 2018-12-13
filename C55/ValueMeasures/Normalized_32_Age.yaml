@@ -1,0 +1,13 @@
+code: "Normalized Age"
+nameId: "Normalized Age"
+descriptionId: "Normalized Age"
+color: "#EBA135"
+consqUnitCode: "Lifetime"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ServiceMeasure"
+monthToYearAggregation: "Minimum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

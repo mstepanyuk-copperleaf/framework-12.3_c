@@ -1,0 +1,8 @@
+code: "RiskConsequence"
+descriptionId: "The consequence of a risk."
+customFieldCode: "Risk Consequence"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Risk Consequence"
+promptTextId: "Risk Consequence"

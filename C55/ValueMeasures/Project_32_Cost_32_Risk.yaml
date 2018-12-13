@@ -1,0 +1,15 @@
+code: "Project Cost Risk"
+nameId: "Project Cost Risk"
+descriptionId: "Projection execution risks have been identified as part of the project\
+  \ scoping process and are expected to result in cost increases over the course of\
+  \ the project."
+color: "#E64A45"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "Disallow"
+financialMetricsUsage: "Ignore"

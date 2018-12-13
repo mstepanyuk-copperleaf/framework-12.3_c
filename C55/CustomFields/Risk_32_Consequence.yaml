@@ -1,0 +1,7 @@
+code: "Risk Consequence"
+nameId: "Risk Consequence"
+descriptionId: "A risk consequence"
+type: "DropDownList"
+isCloneable: true
+listType: "FailureSeverity"
+listItems: []

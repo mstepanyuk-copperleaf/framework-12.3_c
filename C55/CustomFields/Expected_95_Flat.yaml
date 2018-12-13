@@ -1,0 +1,7 @@
+code: "Expected_Flat"
+nameId: "Expected_Flat"
+descriptionId: "Expected_Flat"
+type: "DropDownList"
+isCloneable: true
+listType: "TimeSeries"
+listItems: []

@@ -1,0 +1,13 @@
+code: "Generation Efficiency Benefit (PDF)"
+nameId: "Generation Efficiency Benefit (PDF)"
+descriptionId: "Generation Efficiency Benefit (PDF)"
+color: "#CD6620"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Probability"
+measureCalculation: "OutcomeMinusBaseline"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

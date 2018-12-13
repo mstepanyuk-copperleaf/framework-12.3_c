@@ -1,0 +1,8 @@
+code: "OutageCost"
+descriptionId: "The annual outage cost ($ per year)."
+customFieldCode: "Consequence Units Currency Field"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual Outage Cost ("
+promptTextId: "Annual Outage Cost ($)"

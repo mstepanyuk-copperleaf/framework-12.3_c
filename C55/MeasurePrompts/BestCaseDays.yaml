@@ -1,0 +1,8 @@
+code: "BestCaseDays"
+descriptionId: "The best case number of days of schedule risk consequence."
+customFieldCode: "Consequence Units Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Best Case Days"
+promptTextId: "Best Case Days"

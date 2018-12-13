@@ -1,0 +1,34 @@
+code: "OMFinBenefit"
+nameId: "O&M Financial Benefit"
+descriptionId: "O&M Financial Benefit is used to measure O&M savings such as labour\
+  \ cost saving, material cost savings, and other O&M cost savings."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "OMFinBenefit"
+  nameId: "O&M Financial Benefit"
+  valueMeasureCode: "O&M Financial Benefit"
+  sequence: 1
+questionnaires:
+- code: "OMFinBenefit-O&M Financial Benefit-O"
+  nameId: "O&M Financial Benefit"
+  descriptionId: "O&M Financial Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "OMFinBenefLaborHr"
+    sequence: 11
+  - measurePromptCode: "OMFinBenefMaterialCost"
+    sequence: 12
+  - measurePromptCode: "OMFinBenefOtherDirectCost"
+    sequence: 13
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 14
+  - measurePromptCode: "RationaleComment"
+    sequence: 15
+  formulas:
+  - measureCode: "OMFinBenefit"
+    consequenceClassName: "ManualOMFinancialBenefitFormula"

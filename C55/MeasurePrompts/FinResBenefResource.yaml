@@ -1,0 +1,8 @@
+code: "FinResBenefResource"
+descriptionId: "Resource"
+customFieldCode: "Resource"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Resource"
+promptTextId: "Resource"

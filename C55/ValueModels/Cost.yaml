@@ -1,0 +1,35 @@
+code: "Cost"
+nameId: "Investment Cost"
+descriptionId: "Automatically calculated based upon the forecast for the investment."
+groupCode: "Costs"
+mustImpact: true
+investmentApplicability: "Mandatory"
+assetTypes: []
+measures:
+- code: "Capital"
+  nameId: "Capital"
+  valueMeasureCode: "Capital"
+  sequence: 1
+- code: "O&M"
+  nameId: "O&M"
+  valueMeasureCode: "O&M"
+  sequence: 2
+- code: "TotalCost"
+  nameId: "Total Direct Cost (Cap + Exp)"
+  valueMeasureCode: "Total Direct Cost (Cap + Exp)"
+  sequence: 3
+questionnaires:
+- code: "Cost-O"
+  nameId: "Cost"
+  descriptionId: "Cost"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts: []
+  formulas:
+  - measureCode: "Capital"
+    consequenceClassName: "CapitalFormula"
+  - measureCode: "O&M"
+    consequenceClassName: "OMformula"
+  - measureCode: "TotalCost"
+    consequenceClassName: "TotalCostFormula"

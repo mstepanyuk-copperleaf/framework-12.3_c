@@ -1,0 +1,40 @@
+- code: "Rare"
+  nameId: "Rare"
+  defaultDescriptionId: "This event could occur within the next 100 years"
+  maxProbability: 0.01
+  averageProbability: 0.01
+  measureDescriptions:
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "This event could occur within the next 100 years"
+- code: "Unlikely"
+  nameId: "Unlikely"
+  defaultDescriptionId: "This event could occur within the next 50 years"
+  maxProbability: 0.03
+  averageProbability: 0.02
+  measureDescriptions:
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "This event could occur within the next 50 years"
+- code: "Possible"
+  nameId: "Possible"
+  defaultDescriptionId: "This event could occur within the next 13 years"
+  maxProbability: 0.1
+  averageProbability: 0.08
+  measureDescriptions:
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "This event could occur within the next 13 years"
+- code: "Likely"
+  nameId: "Likely"
+  defaultDescriptionId: "This event could occur within the next 5 years"
+  maxProbability: 0.2
+  averageProbability: 0.19
+  measureDescriptions:
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "This event could occur within the next 5 years"
+- code: "Almost Certain"
+  nameId: "Almost Certain"
+  defaultDescriptionId: "This event could occur within the next 2 years"
+  maxProbability: 1
+  averageProbability: 0.8
+  measureDescriptions:
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "This event could occur within the next 2 years"

@@ -1,0 +1,13 @@
+code: "Safety Risk (Automated)"
+nameId: "Safety Risk (Automated)"
+descriptionId: "Safety Risk (Automated)"
+color: "#D2CE32"
+consqUnitCode: "Value Unit"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

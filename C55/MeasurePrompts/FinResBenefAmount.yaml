@@ -1,0 +1,8 @@
+code: "FinResBenefAmount"
+descriptionId: "What is the amount of the financial benefit (in units per year)?"
+customFieldCode: "What is the amount of the financial benefit (in units per year)?"
+isTimeVarying: true
+isRequired: true
+isComment: false
+shortPromptId: "Annual Amount (Units"
+promptTextId: "What is the amount of the financial benefit (in units per year)?"

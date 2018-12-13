@@ -1,0 +1,8 @@
+code: "Annual Degradation %"
+nameId: "Annual Degradation %"
+descriptionId: ""
+type: "Number"
+isCloneable: true
+numberDecimals: 2
+maximumNumber: 100
+listItems: []

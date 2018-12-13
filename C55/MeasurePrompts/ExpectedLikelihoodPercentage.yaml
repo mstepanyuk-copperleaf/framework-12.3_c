@@ -1,0 +1,8 @@
+code: "ExpectedLikelihoodPercentage"
+descriptionId: "The expected likelihood (%)"
+customFieldCode: "Percentage Likelihood Field"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Expected Likelihood"
+promptTextId: "Expected Likelihood (%)"

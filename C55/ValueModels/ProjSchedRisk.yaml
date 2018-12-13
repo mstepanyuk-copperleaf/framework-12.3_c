@@ -1,0 +1,56 @@
+code: "ProjSchedRisk"
+nameId: "Project Schedule Risk"
+descriptionId: "Projection execution risks have been identified as part of the project\
+  \ scoping process and are expected to result in delays to the project schedule."
+groupCode: "Risks"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "ProjSchedRisk"
+  nameId: "Project Schedule Risk"
+  valueMeasureCode: "Project Schedule Risk"
+  sequence: 1
+questionnaires:
+- code: "ProjSchedRisk-Project Schedule Risk-O"
+  nameId: "Project Schedule Risk"
+  descriptionId: "Project Schedule Risk"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "LowDaysp10"
+    sequence: 11
+  - measurePromptCode: "ExpectedDaysp50"
+    sequence: 12
+  - measurePromptCode: "HighDaysp90"
+    sequence: 13
+  - measurePromptCode: "RationaleCommentRequired"
+    sequence: 14
+  formulas:
+  - measureCode: "ProjSchedRisk"
+    consequenceClassName: "ProjectSchedRiskFormulaNew"
+- code: "ProjSchedRisk-Project Schedule Risk (Obsolete)-O"
+  nameId: "Project Schedule Risk (Obsolete)"
+  descriptionId: "Project Schedule Risk (Obsolete)"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "ExpectedLikelihoodPercentage"
+    sequence: 11
+  - measurePromptCode: "BestCaseLikelihoodPercentage"
+    sequence: 12
+  - measurePromptCode: "WorstCaseLikelihoodPercentage"
+    sequence: 13
+  - measurePromptCode: "ExpectedDays"
+    sequence: 14
+  - measurePromptCode: "BestCaseDays"
+    sequence: 15
+  - measurePromptCode: "WorstCaseDays"
+    sequence: 16
+  - measurePromptCode: "RationaleComment"
+    sequence: 17
+  formulas:
+  - measureCode: "ProjSchedRisk"
+    consequenceClassName: "ProjectSchedRiskFormula"

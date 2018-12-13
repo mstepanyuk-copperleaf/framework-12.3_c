@@ -1,0 +1,9 @@
+code: "Condition Score Worst"
+nameId: "Condition Score Worst"
+descriptionId: "Controls the polarity and range of asset condition scores."
+type: "Number"
+isCloneable: false
+numberDecimals: 9
+isCurrencyValue: false
+maximumNumber: 100000000
+listItems: []

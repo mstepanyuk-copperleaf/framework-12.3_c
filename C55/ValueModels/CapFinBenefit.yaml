@@ -1,0 +1,30 @@
+code: "CapFinBenefit"
+nameId: "Capital Financial Benefit"
+descriptionId: "Capital Financial Benefit is used to measure Capital savings such\
+  \ as reduction/avoidance of capital costs, increased efficiency, or revenue."
+groupCode: "Benefits"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "CapFinBenefit"
+  nameId: "Capital Financial Benefit"
+  valueMeasureCode: "Capital Financial Benefit"
+  sequence: 1
+questionnaires:
+- code: "CapFinBenefit-Capital Financial Benefit-O"
+  nameId: "Capital Financial Benefit"
+  descriptionId: "Capital Financial Benefit"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "CapFinBenefAmount"
+    sequence: 11
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 12
+  - measurePromptCode: "RationaleComment"
+    sequence: 13
+  formulas:
+  - measureCode: "CapFinBenefit"
+    consequenceClassName: "ManualCapitalFinancialBenefitFormula"

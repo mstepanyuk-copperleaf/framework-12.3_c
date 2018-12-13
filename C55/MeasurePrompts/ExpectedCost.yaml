@@ -1,0 +1,8 @@
+code: "ExpectedCost"
+descriptionId: "The expected project cost risk consequence."
+customFieldCode: "Consequence Units Currency Field"
+isTimeVarying: false
+isRequired: true
+isComment: false
+shortPromptId: "Expected Cost ($)"
+promptTextId: "Expected Cost ($)"

@@ -1,0 +1,13 @@
+code: "O&M Financial Benefit"
+nameId: "O&M Financial Benefit"
+descriptionId: "O&M Financial Benefit"
+color: "#FFF000"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

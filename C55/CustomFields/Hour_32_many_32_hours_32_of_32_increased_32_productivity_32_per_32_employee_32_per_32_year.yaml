@@ -1,0 +1,9 @@
+code: "Hour many hours of increased productivity per employee per year"
+nameId: "Hour many hours of increased productivity per employee per year"
+descriptionId: "Productive Workplace Benefit Question"
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 1000000000
+listItems: []

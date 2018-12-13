@@ -1,0 +1,30 @@
+code: "OutageCost"
+nameId: "Outage Cost"
+descriptionId: "When a unit is out of service for planned or unplanned work, it is\
+  \ unable to generate.  That foregone generation is a real indirect cost of the project."
+groupCode: "Costs"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "OutageCost"
+  nameId: "Outage Cost"
+  valueMeasureCode: "Outage Cost"
+  sequence: 1
+questionnaires:
+- code: "OutageCost-Outage Cost-O"
+  nameId: "Outage Cost"
+  descriptionId: "Outage Cost"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: true
+  prompts:
+  - measurePromptCode: "OutageCost"
+    sequence: 11
+  - measurePromptCode: "UncertaintyRangeComment"
+    sequence: 12
+  - measurePromptCode: "RationaleComment"
+    sequence: 13
+  formulas:
+  - measureCode: "OutageCost"
+    consequenceClassName: "OutageCostFormula"

@@ -1,0 +1,15 @@
+code: "Direct Cost Risk"
+nameId: "Direct Cost Risk"
+descriptionId: "Equipment replaced following a failure will likely cost more than\
+  \ Equipment replaced on a planned basis. Direct Costs resulting from failure are\
+  \ estimated to be 30% higher than planned replacement costs."
+color: "#0680B2"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "Frequency"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "Risk"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

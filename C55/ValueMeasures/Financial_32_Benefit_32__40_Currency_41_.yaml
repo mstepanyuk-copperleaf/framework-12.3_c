@@ -1,0 +1,13 @@
+code: "Financial Benefit (Currency)"
+nameId: "Financial Benefit (Currency)"
+descriptionId: "Financial Benefit (Currency)"
+color: "#DBC617"
+consqUnitCode: "Dollar"
+isObsolete: true
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "Outcome"
+measureCategory: "Benefit"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "FinancialBenefit"

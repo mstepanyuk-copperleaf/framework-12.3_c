@@ -1,0 +1,8 @@
+code: "BestCaseCost"
+descriptionId: "The best case project cost risk consequence."
+customFieldCode: "Consequence Units Currency Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Best Case Cost ($)"
+promptTextId: "Best Case Cost ($)"

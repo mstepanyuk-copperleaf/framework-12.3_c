@@ -1,0 +1,119 @@
+- code: "Insignificant"
+  nameId: "Insignificant"
+  defaultDescriptionId: ""
+  maxValue: 10000
+  averageValue: 5000
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "No or insignificant effect on project operations or administrative\
+      \ flexibility or annual mandated costs <$100k"
+  - valueMeasureCode: "Direct Cost Risk"
+    descriptionId: "<$10K"
+  - valueMeasureCode: "Environmental Risk (Manual)"
+    descriptionId: "No impact"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "<$10K"
+  - valueMeasureCode: "Lost Generation Risk"
+    descriptionId: "<280 MWh"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "No or isolated internal complaint"
+  - valueMeasureCode: "Safety Risk (Manual)"
+    descriptionId: "No or minor injury, first air"
+- code: "Minor"
+  nameId: "Minor"
+  defaultDescriptionId: ""
+  maxValue: 100000
+  averageValue: 100000
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Change in project operations or administrative flexibility or\
+      \ inability or annual mandated costs <$100k"
+  - valueMeasureCode: "Direct Cost Risk"
+    descriptionId: "$10k-$100K annually"
+  - valueMeasureCode: "Environmental Risk (Manual)"
+    descriptionId: "Impact to on-site environment (simple remediation required) or\
+      \ where the remediation costs <$100k"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "$10k-$100K annually"
+  - valueMeasureCode: "Lost Generation Risk"
+    descriptionId: "280 MWh – 2,800 MWh"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Local media attention; widespread internal complaint; some public\
+      \ embarrassment"
+  - valueMeasureCode: "Safety Risk (Manual)"
+    descriptionId: "Treatment by medical professional"
+- code: "Moderate"
+  nameId: "Moderate"
+  defaultDescriptionId: ""
+  maxValue: 1000000
+  averageValue: 1000000
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Adverse effect on existing beneficial legal principals or precedents;\
+      \ project operations noticeably affected for compliance; inability to maintain\
+      \ system frequency or voltage or annual mandated costs <$1M"
+  - valueMeasureCode: "Direct Cost Risk"
+    descriptionId: "$100k-$1M annually"
+  - valueMeasureCode: "Environmental Risk (Manual)"
+    descriptionId: "Limited impact off-site (localized remediation required) or where\
+      \ the remediation costs <$1M"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "$100k-$1M annually"
+  - valueMeasureCode: "Lost Generation Risk"
+    descriptionId: "2,800 MWh – 28,000 MWh"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Transitory local media/Federal/customer attention and criticism;\
+      \ some damage control; congressional enquiry; short duration loss of power to\
+      \ islanded community"
+  - valueMeasureCode: "Safety Risk (Manual)"
+    descriptionId: "Lost time Accident – temporary disability"
+- code: "Major"
+  nameId: "Major"
+  defaultDescriptionId: ""
+  maxValue: 10000000
+  averageValue: 4500000
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Adverse effect on existing beneficial legal principals or precedents;\
+      \ substantial changes needed in project operations or administration or annual\
+      \ costs <$10M"
+  - valueMeasureCode: "Direct Cost Risk"
+    descriptionId: "$1M-$10M annually"
+  - valueMeasureCode: "Environmental Risk (Manual)"
+    descriptionId: "Detrimental impact on- or off-site (long-term remediation required)\
+      \ or where the remediation costs <$10M"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: "$1M-$10M annually"
+  - valueMeasureCode: "Lost Generation Risk"
+    descriptionId: "28,000 MWh – 280,000 MWh"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Ongoing media/Federal/customer attention; major damage control;\
+      \ significant impact on staff morale; congressional enquiry; extended duration\
+      \ loss of power to islanded community"
+  - valueMeasureCode: "Safety Risk (Manual)"
+    descriptionId: "Permanent disability"
+- code: "Extreme"
+  nameId: "Extreme"
+  defaultDescriptionId: ""
+  maxValue: 1000000000
+  averageValue: 10000001
+  measureDescriptions:
+  - valueMeasureCode: "Compliance Risk"
+    descriptionId: "Extremely difficult to meet fundamental statutory obligations;\
+      \ extremely unreliable system; extreme changes needed in project operations\
+      \ or administration or annual mandated cost >$10M"
+  - valueMeasureCode: "Direct Cost Risk"
+    descriptionId: ">$10 million annually"
+  - valueMeasureCode: "Environmental Risk (Manual)"
+    descriptionId: "Detrimental or catastrophic impact off-site (mitigation impossible)\
+      \ or where the remediation costs >$10M"
+  - valueMeasureCode: "Financial Risk"
+    descriptionId: ">$10 million annually"
+  - valueMeasureCode: "Lost Generation Risk"
+    descriptionId: ">280,000 MWh"
+  - valueMeasureCode: "Public Perception Risk"
+    descriptionId: "Adverse and ongoing media/Federal/customer attention, criticism\
+      \ and agency intervention; extreme damage control; parliamentary secretary called\
+      \ to congress; permanent duration on loss of power to islanded community"
+  - valueMeasureCode: "Safety Risk (Manual)"
+    descriptionId: "Fatality"

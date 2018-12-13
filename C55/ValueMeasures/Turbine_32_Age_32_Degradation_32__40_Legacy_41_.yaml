@@ -1,0 +1,13 @@
+code: "Turbine Age Degradation (Legacy)"
+nameId: "Turbine Age Degradation (Legacy)"
+descriptionId: ""
+color: "#5D8CDB"
+consqUnitCode: "Dollar"
+isObsolete: false
+isAllowedForConstraint: false
+likelihoodType: "None"
+measureCalculation: "BaselineMinusOutcome"
+measureCategory: "ExpenditureCost"
+monthToYearAggregation: "Sum"
+valueFunctionUsage: "PositiveWeighting"
+financialMetricsUsage: "Ignore"

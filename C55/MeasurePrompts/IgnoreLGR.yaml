@@ -1,0 +1,9 @@
+code: "IgnoreLGR"
+descriptionId: "Indicate whether the automatically calculated lost generation risk\
+  \ should be ignored."
+customFieldCode: "Boolean Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Ignore LGR"
+promptTextId: "Ignore Lost Generation Risk"

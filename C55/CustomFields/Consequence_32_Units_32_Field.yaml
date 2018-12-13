@@ -1,0 +1,9 @@
+code: "Consequence Units Field"
+nameId: "Consequence Units Field"
+descriptionId: "A generic non-currency consequence units question."
+type: "Number"
+isCloneable: true
+numberDecimals: 0
+isCurrencyValue: false
+maximumNumber: 1000000000
+listItems: []

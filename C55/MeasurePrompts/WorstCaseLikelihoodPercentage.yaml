@@ -1,0 +1,8 @@
+code: "WorstCaseLikelihoodPercentage"
+descriptionId: "The worst case likelihood (%)"
+customFieldCode: "Percentage Likelihood Field"
+isTimeVarying: false
+isRequired: false
+isComment: false
+shortPromptId: "Worst Case Likelihoo"
+promptTextId: "Worst Case Likelihood (%)"

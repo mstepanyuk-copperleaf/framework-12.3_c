@@ -1,0 +1,57 @@
+code: "ProjCostRisk"
+nameId: "Project Cost Risk"
+descriptionId: "Projection execution risks have been identified as part of the project\
+  \ scoping process and are expected to result in cost increases over the course of\
+  \ the project."
+groupCode: "Risks"
+mustImpact: true
+investmentApplicability: "Optional"
+assetTypes: []
+measures:
+- code: "ProjCostRisk"
+  nameId: "Project Cost Risk"
+  valueMeasureCode: "Project Cost Risk"
+  sequence: 1
+questionnaires:
+- code: "ProjCostRisk-Project Cost Risk-O"
+  nameId: "Project Cost Risk"
+  descriptionId: "Project Cost Risk"
+  isBaseline: false
+  isDefault: true
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "LowCostp10"
+    sequence: 11
+  - measurePromptCode: "ExpectedCostp50"
+    sequence: 12
+  - measurePromptCode: "HighCostp90"
+    sequence: 13
+  - measurePromptCode: "RationaleCommentRequired"
+    sequence: 14
+  formulas:
+  - measureCode: "ProjCostRisk"
+    consequenceClassName: "ProjectCostRiskFormulaNew"
+- code: "ProjCostRisk-Project Cost Risk (Obsolete)-O"
+  nameId: "Project Cost Risk (Obsolete)"
+  descriptionId: "Project Cost Risk (Obsolete)"
+  isBaseline: false
+  isDefault: false
+  allowMeasureItemDuration: false
+  prompts:
+  - measurePromptCode: "ExpectedLikelihoodPercentage"
+    sequence: 11
+  - measurePromptCode: "BestCaseLikelihoodPercentage"
+    sequence: 12
+  - measurePromptCode: "WorstCaseLikelihoodPercentage"
+    sequence: 13
+  - measurePromptCode: "ExpectedCost"
+    sequence: 14
+  - measurePromptCode: "BestCaseCost"
+    sequence: 15
+  - measurePromptCode: "WorstCaseCost"
+    sequence: 16
+  - measurePromptCode: "RationaleComment"
+    sequence: 17
+  formulas:
+  - measureCode: "ProjCostRisk"
+    consequenceClassName: "ProjectCostRiskFormula"
